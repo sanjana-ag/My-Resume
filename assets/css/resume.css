@@ -1,4 +1,10 @@
 
+ul {
+    line-height: 18px;
+}
+span.bold{
+    font-weight: 700;
+}
 .personal img{
     height: 160px;
     width: 100%;
@@ -20,6 +26,7 @@
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    line-height: 22px;
 }
 .personal ul{
  padding-left: 0;
@@ -28,6 +35,7 @@
 .personal ul li {
     list-style: none;
     display: block;
+    line-height: 22px;
 }
 .portfolio ul p {
     margin: 10px 0;
@@ -75,4 +83,27 @@ i{
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 
+}
+.education p {
+    margin-top: 2px !important;
+}
+
+
+/* Responsive media queries */
+@media only screen and (min-width: 768px){
+    .display-desktop{
+        display: block;
+    }
+    .display-mobile{
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px){
+    .display-desktop{
+        display: none;
+    }
+    .display-mobile{
+        display: block;
+        margin-top: 12px;
+    }
 }
