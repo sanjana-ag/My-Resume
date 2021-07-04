@@ -1,0 +1,78 @@
+
+.personal img{
+    height: 160px;
+    width: 100%;
+    max-width: 175px;
+    padding-top: 12px;
+}
+.personal{
+    background-color: #394867;
+    color:#F9F9F9;
+}
+.portfolio h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+.portfolio p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.personal ul{
+ padding-left: 0;
+ margin-bottom: 0;
+}
+.personal ul li {
+    list-style: none;
+    display: block;
+}
+.portfolio ul p {
+    margin: 10px 0;
+}
+.interests, .contact, .about-me, .education, .skills, .programming {
+    margin-bottom: 2rem;
+}
+.professional h1{
+    text-align: center;
+}
+.professional h5{
+    font-size: 18px;
+}
+.professional h3{
+    text-decoration: underline;
+    text-underline-offset:3.5px;
+}
+.professional {
+    padding-top: 12px;
+}
+.contact a {
+    color: #f9f9f9;
+    text-decoration: underline;
+}
+.contact a:hover{
+    font-weight: 600;
+}
+.professional ul{
+    padding-left: 1.8rem;
+    list-style-type: square;
+}
+.professional ul li{
+
+}
+.professional h1{
+    font-family: 'Istok Web', sans-serif;
+}
+.professional{
+    background-color:#F1F6F9; ;
+}
+i{
+    margin-right: 12px;
+}
+.projects p{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+
+}
